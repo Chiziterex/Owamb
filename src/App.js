@@ -1,24 +1,30 @@
-import logo from './logo.svg';
+import React from "react";
 import './App.css';
+import './mobile.css';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import SignIn from "./components/signin";
+import SignUp from "./components/signup";
+import Feedback from "./components/feedback";
+import Food from "./components/food";
+import Home from "./components/home";
+import Payment from "./components/payment";
+import Ticket from "./components/ticket";
+import NoPage from "./components/nopage";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      <Routes>
+          <Route index element={<SignIn />} />
+          <Route path="/signup" element={<SignUp />} />
+          <Route path="/home" element={<Home />} />
+        <Route path="/food" element={<Food />} />
+        <Route path="/payment" element={<Payment />} />
+        <Route path="/ticket" element={<Ticket />} />
+        <Route path="/feedback" element={<Feedback />} />
+        <Route path="*" element={<NoPage />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 

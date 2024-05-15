@@ -1,0 +1,142 @@
+@media (max-width: 960px) {
+}
+
+@media (max-width: 600px) {
+  .signUp form {
+    padding: 3rem;
+    width: 25rem;
+  }
+  .content .header h1 {
+    font-size: 1.5rem;
+  }
+  .foodWeek .content {
+    padding: 0 5%;
+  }
+  .payment .content {
+    padding: 0 5%;
+  }
+  .ticket .container img {
+    width: 300px;
+    height: 200px;
+  }
+  .tickets .container .contentt .line{
+    width: 350px;
+    bottom: 27%;
+  }
+  .foodWeek .content .aboutEvent .ticket p {
+    padding: 0.5rem 5.5rem;
+  }
+  .payment .pay p {
+    padding: 0.75rem 4rem;
+  }
+  .home{
+    font-size: 50%;
+  }
+  .home .container .header .top .lst img {
+    width: 3rem;
+    height: 3rem;
+  }
+  .home .container .header .top {
+    gap: 2rem;
+  }
+  .home .container .header .top .icon {
+    font-size: 1rem;
+  }
+  .home .container .header .top .lst {
+    gap: 2rem;
+  }
+  .home .container .header span input {
+    width: 20rem;
+  }
+  .home .upcomingEvents,
+  .home .highlights,
+  .home .categories{
+    margin: 0 0.75rem 0.3rem 0.75rem;
+  }
+  .home .container .categories .lstBox p,
+  .home .container .categories .lstBox i{
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+  }
+  .home .container .highlights .top i,
+  .home .container .categories .lstBox{
+    font-size: 1.2rem;
+    margin: 0 1rem;
+  }
+  .home .container h1{
+    font-size: 1.2rem;
+    margin: 0 1rem 1rem 1rem;
+  }
+  .home .container .categories .scndBox{
+    margin: 0 0 0 1rem;
+  }
+  .home .container .imageContainer {
+    width: 80vw;
+    height: 30vh;
+  }
+  .home .container .imageContainer .imageBox img {
+    width: 200px;
+    height: 150px;
+  }
+  footer {
+    padding:0.75rem 0.75rem 0.75rem 0.5rem;
+    width: 100vw;
+    border-top: 1px solid var(--bg-color-3-);
+    background-color:var(--bg-color-2-) ;
+  
+  }
+  footer span i,
+  footer span p{
+    font-size: 0.85rem;
+  }
+  .foodWeek .content img {
+    width: 300px;
+    height: 200px;
+  }
+  .foodWeek .content .text {
+    gap: 2rem;
+    width: 100%;
+  }
+  .foodWeek .content .middleElement {
+    gap: 2rem;
+    margin: 2rem 0;
+    padding: 0.3rem 1rem;
+  }
+  .foodWeek .content .text .right {
+    padding: 0.5rem 0.75rem;
+  }
+  .payment .content {
+    width: clamp(13rem, 23rem, 33rem);
+  }
+  .payment .third input {
+    width: 250px;
+  }
+  .payment .fourth input {
+    width: 250px;
+  }
+  .payment .fifth {
+    width: 100%;
+  }
+  .foodWeek .content .aboutEvent .ticket span {
+    padding: 0.5rem 8rem;
+  }
+  .pay .confirm,
+  .pay .cancel {
+    width: 20rem;
+  }
+  .feedback form input{
+    width: 20rem;
+  }
+  .feedback form label,
+  .feedback .center p{
+    text-align: center;
+  }
+}
+
+
+@media (max-width: 400px){
+  .foodWeek .content .aboutEvent .ticket p {
+    font-size: 1rem;
+  }
+  
+}

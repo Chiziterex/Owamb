@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import Tick from "../assets/tick mark.png"
 
 function Ticket() {
@@ -42,8 +43,8 @@ function Ticket() {
             <i class="fa-solid fa-qrcode"></i>
 
             <div class="pay">
-                <p class="confirm ticketConfirm"><a href="feedback.html">Give feedback</a></p>
-                <span><a class="cancel">Close</a></span>
+                <Link to="/feedback"><p className="confirm ticketConfirm">Give feedback</p></Link>
+                <Link to="/payment"><span class="cancel">Close</span></Link>
             </div>
 
         </section>

@@ -6,7 +6,7 @@ function Payment() {
     <div className="payment">
     <div className="content">
       <header>
-        <a href="food.html"><i class="fa-solid fa-arrow-left"></i></a>
+        <Link to="/food"><i class="fa-solid fa-arrow-left"></i></Link>
         <p>payment</p>
       </header>
   

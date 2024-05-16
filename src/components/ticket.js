@@ -10,7 +10,7 @@ function Ticket() {
     <div class="container">
         
         <header>
-            <a href="payment.html"><i class="fa-solid fa-arrow-left"></i></a>
+            <Link to="/food"><i class="fa-solid fa-arrow-left"></i></Link>
             <p>save</p>
         </header>
 

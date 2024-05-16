@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCoffee } from '@fortawesome/free-solid-svg-icons';
 
  function Food() {
   return (
@@ -14,7 +15,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
             <p>owerri</p>
             <p>hosted by foodie buddy INC</p>
             <span>
-              <p><FontAwesomeIcon icon="fa-solid fa-location-dot" /> owerri</p>
+              <p> <i class="fa-solid fa-location-dot"></i> owerri</p>
               <p><i class="fa-regular fa-clock"></i> 10:00am - 3:00pm</p>
             </span>
           </div>
@@ -28,7 +29,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
         <div className="middleElement">
           <div>
             <p>Rating</p>
-            <span><FontAwesomeIcon icon="fa-solid fa-star" /> 4.6</span>
+            <span><i class="fa-solid fa-star"></i> 4.6</span>
           </div>
           <div>
             <p><span>1,024</span> are going</p>

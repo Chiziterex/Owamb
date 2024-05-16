@@ -1,4 +1,4 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { Link } from "react-router-dom";
 
 function SignUp(){
   return (
@@ -34,12 +34,12 @@ function SignUp(){
           <p>Sign up using</p>
         </div>
         <div class="icons">
-        <FontAwesomeIcon icon="fa-brands fa-facebook" />
-        <FontAwesomeIcon icon="fa-brands fa-google" />
-        <FontAwesomeIcon icon="fa-brands fa-x-twitter" />
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-google"></i>
+        <i class="fa-brands fa-x-twitter"></i>
         </div>
         <p class="lastP">
-          Already have an account? <button href="index.html">Sign in</button>
+          Already have an account? <Link to="/signIn">Sign in</Link>
         </p>
       </form>
     </div>

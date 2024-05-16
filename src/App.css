@@ -1191,8 +1191,9 @@ font-size: 12rem;
   /* align-items: center;
   justify-content: center; */
   flex-direction: column;
-  gap: 2rem;
+  gap: 1.5rem;
   margin: 2rem 3rem;
+  min-height: 100vh;
 }
 
 .feedback .header{
@@ -1228,6 +1229,15 @@ font-size: 12rem;
   align-items: center;
   justify-content: center;
   gap: 0.5rem;
+}
+
+.feedback .center .stars .fa-star{
+  font-size: 1.75rem;
+  color: var(--bg-color-);
+}
+
+.feedback .center .stars #grey{
+  color: var(--txt-color-3-);
 }
 
 .feedback form{

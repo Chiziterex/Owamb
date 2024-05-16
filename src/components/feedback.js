@@ -5,15 +5,19 @@ function Feedback() {
     return (
     <div className="feedback">
         <div className="header">
-            <i>gg</i>
+        <i class="fa-solid fa-arrow-left"></i>
             <p>feedback</p>
-            <i>zz</i>
+            <i></i>
         </div>
 
         <div class="center">
             <p>Rate your exerience with us</p>
             <div class="stars">
-                <i>r</i><i>r</i><i>r</i><i>r</i><i>r</i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star" id="grey"></i>
             </div>
         </div>
 

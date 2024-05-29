@@ -56,5 +56,5 @@ function Payment() {
   );
 }
 
-export default Payment
+export default Payment;
 

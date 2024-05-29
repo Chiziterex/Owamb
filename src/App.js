@@ -1,7 +1,6 @@
 import React from "react";
-import './App.css';
-import './mobile.css';
-import '@fortawesome/fontawesome-free/css/all.css';
+import "./App.css";
+import "./mobile.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import SignIn from "./components/signin";
 import SignUp from "./components/signup";
@@ -18,8 +17,8 @@ function App() {
       <Routes>
         <Route index element={<SignIn />} />
         <Route path="/signIn" element={<SignIn />} />
-          <Route path="/signup" element={<SignUp />} />
-          <Route path="/home" element={<Home />} />
+        <Route path="/signup" element={<SignUp />} />
+        <Route path="/home" element={<Home />} />
         <Route path="/food" element={<Food />} />
         <Route path="/payment" element={<Payment />} />
         <Route path="/ticket" element={<Ticket />} />

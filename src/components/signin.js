@@ -3,14 +3,14 @@ import { Link } from "react-router-dom";
 function SignIn() {
   
   return (
-    <div class="content">
-      <div class="header">
+    <div className="content">
+      <div className="header">
         <img
           src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdKTB6_3KQcFTO3G-cd1-ut7IYtcSYH7-w94SwgyoTuUPk3iJunLP7qWfq_IBzCJhqwYw&usqp=CAU"
           alt=""
         />
         <h1>my owambe events</h1>
-        <span class="line"></span>
+        <span className="line"></span>
       </div>
 
       <form class="form">
@@ -21,10 +21,10 @@ function SignIn() {
           minlength="6"
           maxlength="8"
         />
-        <span class="left">Forgot your password?</span>
+        <span className="left">Forgot your password?</span>
 
         <Link to="/home">
-        <button class="btn">Sign in</button>
+        <button className="btn">Sign in</button>
         </Link>
 
         <p>

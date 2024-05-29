@@ -15,7 +15,7 @@ function Ticket() {
         </header>
 
         <section class="contentt">
-                <img src={Tick}></img>
+                <img src={Tick} alt="A tick mark"></img>
         <div class="text">
             <h4>ticket summary</h4>
             <span>name</span>

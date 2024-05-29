@@ -60,4 +60,4 @@ import { Link } from "react-router-dom";
   );
 }
 
-export default Food
+export default Food;
